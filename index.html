@@ -1,0 +1,4747 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Idrees | Professional Web Developer for Shops, Barbers & Local Businesses</title>
+
+    <meta name="description" content="Professional freelance web developer creating responsive, SEO-optimized websites for shops, barbers, restaurants, and local businesses. WhatsApp: 03317143363">
+
+    <meta name="keywords" content="freelance web developer, website for shops, barber shop website, business website design, responsive web design, hire web developer Pakistan, Idrees portfolio, ecommerce website, restaurant website, professional web development, SEO optimized website">
+
+    <meta name="author" content="Idrees">
+
+    <meta name="robots" content="index, follow">
+
+    
+
+    <!-- Open Graph / Facebook -->
+
+    <meta property="og:type" content="website">
+
+    <meta property="og:url" content="https://idrees-portfolio.example.com/">
+
+    <meta property="og:title" content="Idrees | Professional Web Developer for Local Businesses">
+
+    <meta property="og:description" content="Professional website development for shops, barbers, restaurants, and local businesses. Contact on WhatsApp: 03317143363">
+
+    <meta property="og:image" content="https://idrees-portfolio.example.com/images/og-image.jpg">
+
+    
+
+    <!-- Twitter -->
+
+    <meta property="twitter:card" content="summary_large_image">
+
+    <meta property="twitter:url" content="https://idrees-portfolio.example.com/">
+
+    <meta property="twitter:title" content="Idrees | Professional Web Developer">
+
+    <meta property="twitter:description" content="Professional website development for shops, barbers, and local businesses.">
+
+    <meta property="twitter:image" content="https://idrees-portfolio.example.com/images/og-image.jpg">
+
+    
+
+    <!-- Favicon -->
+
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👨‍💻</text></svg>">
+
+    
+
+    <!-- Canonical URL -->
+
+    <link rel="canonical" href="https://idrees-portfolio.example.com">
+
+    
+
+    <!-- Font Awesome Icons -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    
+
+    <!-- Google Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+
+    
+
+    <!-- Structured Data -->
+
+    <script type="application/ld+json">
+
+    {
+
+      "@context": "https://schema.org",
+
+      "@type": "Person",
+
+      "name": "Idrees",
+
+      "jobTitle": "Freelance Web Developer",
+
+      "description": "Professional website development for shops, barbers, restaurants, and local businesses",
+
+      "url": "https://idrees-portfolio.example.com",
+
+      "email": "mailto:idrees42188@gmail.com",
+
+      "telephone": "+92-331-7143363",
+
+      "address": {
+
+        "@type": "PostalAddress",
+
+        "addressCountry": "Pakistan"
+
+      },
+
+      "sameAs": [
+
+        "https://wa.me/923317143363",
+
+        "https://www.facebook.com/IdreesPortfolio",
+
+        "https://www.linkedin.com/in/IdreesPortfolio"
+
+      ],
+
+      "knowsAbout": ["Web Development", "Responsive Design", "E-commerce Websites", "SEO Optimization", "Website for Local Businesses"]
+
+    }
+
+    </script>
+
+    
+
+    <style>
+
+        /* CSS Variables for Theming */
+
+        :root {
+
+            --primary: #2563eb;
+
+            --primary-dark: #1d4ed8;
+
+            --secondary: #06b6d4;
+
+            --accent: #ec4899;
+
+            --light: #f8fafc;
+
+            --dark: #1e293b;
+
+            --gray: #64748b;
+
+            --gray-light: #e2e8f0;
+
+            --success: #10b981;
+
+            --error: #ef4444;
+
+            
+
+            --transition: all 0.3s ease;
+
+            --shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+
+            --shadow-lg: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+
+            
+
+            --max-width: 1200px;
+
+            --border-radius: 12px;
+
+            --font-heading: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+            --font-body: 'Open Sans', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+
+        }
+
+        
+
+        .dark-mode {
+
+            --light: #1e293b;
+
+            --dark: #f8fafc;
+
+            --gray: #94a3b8;
+
+            --gray-light: #334155;
+
+        }
+
+        
+
+        /* Base Styles */
+
+        * {
+
+            margin: 0;
+
+            padding: 0;
+
+            box-sizing: border-box;
+
+        }
+
+        
+
+        html {
+
+            scroll-behavior: smooth;
+
+            font-size: 16px;
+
+        }
+
+        
+
+        body {
+
+            font-family: var(--font-body);
+
+            line-height: 1.6;
+
+            color: var(--dark);
+
+            background-color: var(--light);
+
+            transition: var(--transition);
+
+            overflow-x: hidden;
+
+        }
+
+        
+
+        body.reduce-motion {
+
+            --transition: none;
+
+        }
+
+        
+
+        body.reduce-motion *,
+
+        body.reduce-motion *::before,
+
+        body.reduce-motion *::after {
+
+            animation-duration: 0.01ms !important;
+
+            animation-iteration-count: 1 !important;
+
+            transition-duration: 0.01ms !important;
+
+            scroll-behavior: auto !important;
+
+        }
+
+        
+
+        h1, h2, h3, h4, h5, h6 {
+
+            font-family: var(--font-heading);
+
+            font-weight: 700;
+
+            line-height: 1.2;
+
+            margin-bottom: 1rem;
+
+        }
+
+        
+
+        h1 {
+
+            font-size: 3.5rem;
+
+        }
+
+        
+
+        h2 {
+
+            font-size: 2.5rem;
+
+            margin-bottom: 2.5rem;
+
+            position: relative;
+
+            display: inline-block;
+
+        }
+
+        
+
+        h2::after {
+
+            content: '';
+
+            position: absolute;
+
+            bottom: -10px;
+
+            left: 0;
+
+            width: 60px;
+
+            height: 4px;
+
+            background: var(--primary);
+
+            border-radius: 2px;
+
+        }
+
+        
+
+        p {
+
+            margin-bottom: 1.5rem;
+
+        }
+
+        
+
+        a {
+
+            color: var(--primary);
+
+            text-decoration: none;
+
+            transition: var(--transition);
+
+        }
+
+        
+
+        a:hover {
+
+            color: var(--primary-dark);
+
+        }
+
+        
+
+        img {
+
+            max-width: 100%;
+
+            height: auto;
+
+            display: block;
+
+        }
+
+        
+
+        .container {
+
+            width: 100%;
+
+            max-width: var(--max-width);
+
+            margin: 0 auto;
+
+            padding: 0 1.5rem;
+
+        }
+
+        
+
+        .section {
+
+            padding: 5rem 0;
+
+            position: relative;
+
+        }
+
+        
+
+        .text-center {
+
+            text-align: center;
+
+        }
+
+        
+
+        .btn {
+
+            display: inline-block;
+
+            padding: 0.8rem 1.8rem;
+
+            background: var(--primary);
+
+            color: white;
+
+            border-radius: var(--border-radius);
+
+            font-weight: 600;
+
+            cursor: pointer;
+
+            border: none;
+
+            transition: var(--transition);
+
+            box-shadow: var(--shadow);
+
+            text-align: center;
+
+        }
+
+        
+
+        .btn:hover {
+
+            background: var(--primary-dark);
+
+            transform: translateY(-3px);
+
+            box-shadow: var(--shadow-lg);
+
+            color: white;
+
+        }
+
+        
+
+        .btn-secondary {
+
+            background: transparent;
+
+            color: var(--primary);
+
+            border: 2px solid var(--primary);
+
+        }
+
+        
+
+        .btn-secondary:hover {
+
+            background: var(--primary);
+
+            color: white;
+
+        }
+
+        
+
+        .btn-whatsapp {
+
+            background: #25D366;
+
+        }
+
+        
+
+        .btn-whatsapp:hover {
+
+            background: #128C7E;
+
+        }
+
+        
+
+        .btn-large {
+
+            padding: 1rem 2.5rem;
+
+            font-size: 1.1rem;
+
+        }
+
+        
+
+        /* Particle Background */
+
+        #particles-js {
+
+            position: absolute;
+
+            width: 100%;
+
+            height: 100%;
+
+            top: 0;
+
+            left: 0;
+
+            z-index: -1;
+
+        }
+
+        
+
+        /* Header & Navigation */
+
+        header {
+
+            position: fixed;
+
+            top: 0;
+
+            left: 0;
+
+            width: 100%;
+
+            z-index: 1000;
+
+            background: rgba(255, 255, 255, 0.95);
+
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+
+            transition: var(--transition);
+
+            backdrop-filter: blur(10px);
+
+        }
+
+        
+
+        .dark-mode header {
+
+            background: rgba(30, 41, 59, 0.95);
+
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+
+        }
+
+        
+
+        header.scrolled {
+
+            padding: 0.5rem 0;
+
+        }
+
+        
+
+        .nav-container {
+
+            display: flex;
+
+            justify-content: space-between;
+
+            align-items: center;
+
+            padding: 1rem 1.5rem;
+
+        }
+
+        
+
+        .logo {
+
+            font-size: 1.8rem;
+
+            font-weight: 800;
+
+            color: var(--primary);
+
+            display: flex;
+
+            align-items: center;
+
+        }
+
+        
+
+        .logo span {
+
+            color: var(--secondary);
+
+        }
+
+        
+
+        .nav-menu {
+
+            display: flex;
+
+            list-style: none;
+
+        }
+
+        
+
+        .nav-link {
+
+            margin: 0 1rem;
+
+            font-weight: 600;
+
+            color: var(--dark);
+
+            position: relative;
+
+        }
+
+        
+
+        .dark-mode .nav-link {
+
+            color: var(--light);
+
+        }
+
+        
+
+        .nav-link::after {
+
+            content: '';
+
+            position: absolute;
+
+            bottom: -5px;
+
+            left: 0;
+
+            width: 0;
+
+            height: 2px;
+
+            background: var(--primary);
+
+            transition: var(--transition);
+
+        }
+
+        
+
+        .nav-link:hover::after {
+
+            width: 100%;
+
+        }
+
+        
+
+        .theme-toggle {
+
+            background: none;
+
+            border: none;
+
+            cursor: pointer;
+
+            font-size: 1.5rem;
+
+            margin-left: 1.5rem;
+
+            color: var(--dark);
+
+            transition: var(--transition);
+
+        }
+
+        
+
+        .dark-mode .theme-toggle {
+
+            color: var(--light);
+
+        }
+
+        
+
+        .hamburger {
+
+            display: none;
+
+            cursor: pointer;
+
+        }
+
+        
+
+        /* Hero Section */
+
+        .hero {
+
+            min-height: 100vh;
+
+            display: flex;
+
+            align-items: center;
+
+            position: relative;
+
+            overflow: hidden;
+
+            padding-top: 4rem;
+
+        }
+
+        
+
+        .hero-content {
+
+            max-width: 650px;
+
+            opacity: 0;
+
+            transform: translateY(30px);
+
+            animation: fadeUp 1s ease forwards 0.5s;
+
+        }
+
+        
+
+        .hero-title {
+
+            font-size: 3.5rem;
+
+            margin-bottom: 1.5rem;
+
+            line-height: 1.2;
+
+        }
+
+        
+
+        .typed-text {
+
+            color: var(--primary);
+
+            position: relative;
+
+        }
+
+        
+
+        .typed-cursor {
+
+            display: inline-block;
+
+            color: var(--primary);
+
+            animation: blink 1s infinite;
+
+        }
+
+        
+
+        .hero-subtitle {
+
+            font-size: 1.5rem;
+
+            margin-bottom: 2.5rem;
+
+            color: var(--gray);
+
+        }
+
+        
+
+        .hero-buttons {
+
+            display: flex;
+
+            gap: 1rem;
+
+        }
+
+        
+
+        .floating-shapes {
+
+            position: absolute;
+
+            top: 0;
+
+            left: 0;
+
+            width: 100%;
+
+            height: 100%;
+
+            z-index: -1;
+
+            overflow: hidden;
+
+        }
+
+        
+
+        .shape {
+
+            position: absolute;
+
+            border-radius: 50%;
+
+            opacity: 0.2;
+
+            animation: float 15s infinite linear;
+
+        }
+
+        
+
+        .shape-1 {
+
+            width: 300px;
+
+            height: 300px;
+
+            background: var(--primary);
+
+            top: -150px;
+
+            right: -150px;
+
+            animation-delay: 0s;
+
+            animation-duration: 25s;
+
+        }
+
+        
+
+        .shape-2 {
+
+            width: 200px;
+
+            height: 200px;
+
+            background: var(--secondary);
+
+            bottom: -100px;
+
+            left: 10%;
+
+            animation-delay: 2s;
+
+            animation-duration: 20s;
+
+        }
+
+        
+
+        .shape-3 {
+
+            width: 150px;
+
+            height: 150px;
+
+            background: var(--accent);
+
+            top: 50%;
+
+            right: 10%;
+
+            animation-delay: 4s;
+
+            animation-duration: 15s;
+
+        }
+
+        
+
+        /* Services Section */
+
+        .services-grid {
+
+            display: grid;
+
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+            gap: 2rem;
+
+            margin-top: 3rem;
+
+        }
+
+        
+
+        .service-card {
+
+            background: white;
+
+            border-radius: var(--border-radius);
+
+            padding: 2rem;
+
+            box-shadow: var(--shadow);
+
+            transition: var(--transition);
+
+            opacity: 0;
+
+            transform: translateY(30px);
+
+            position: relative;
+
+            overflow: hidden;
+
+            z-index: 1;
+
+        }
+
+        
+
+        .dark-mode .service-card {
+
+            background: var(--gray-light);
+
+        }
+
+        
+
+        .service-card::before {
+
+            content: '';
+
+            position: absolute;
+
+            top: 0;
+
+            left: 0;
+
+            width: 100%;
+
+            height: 100%;
+
+            background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+
+            opacity: 0;
+
+            transition: var(--transition);
+
+            z-index: -1;
+
+        }
+
+        
+
+        .service-card:hover {
+
+            transform: translateY(-10px);
+
+            box-shadow: var(--shadow-lg);
+
+            color: white;
+
+        }
+
+        
+
+        .service-card:hover::before {
+
+            opacity: 1;
+
+        }
+
+        
+
+        .service-card:hover .service-icon {
+
+            color: white;
+
+            transform: scale(1.1) rotate(5deg);
+
+        }
+
+        
+
+        .service-icon {
+
+            font-size: 3rem;
+
+            margin-bottom: 1.5rem;
+
+            color: var(--primary);
+
+            transition: var(--transition);
+
+        }
+
+        
+
+        .service-title {
+
+            font-size: 1.5rem;
+
+            margin-bottom: 1rem;
+
+        }
+
+        
+
+        /* About Section */
+
+        .about-content {
+
+            display: grid;
+
+            grid-template-columns: 1fr 1fr;
+
+            gap: 4rem;
+
+            align-items: center;
+
+        }
+
+        
+
+        .about-image {
+
+            position: relative;
+
+            opacity: 0;
+
+            transform: translateX(-30px);
+
+        }
+
+        
+
+        .about-image img {
+
+            border-radius: 50%;
+
+            width: 100%;
+
+            max-width: 400px;
+
+            margin: 0 auto;
+
+            box-shadow: var(--shadow-lg);
+
+            transition: var(--transition);
+
+        }
+
+        
+
+        .about-image:hover img {
+
+            transform: scale(1.03);
+
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+
+        }
+
+        
+
+        .skills-container {
+
+            margin-top: 2rem;
+
+        }
+
+        
+
+        .skill {
+
+            margin-bottom: 1.5rem;
+
+        }
+
+        
+
+        .skill-name {
+
+            display: flex;
+
+            justify-content: space-between;
+
+            margin-bottom: 0.5rem;
+
+            font-weight: 600;
+
+        }
+
+        
+
+        .skill-bar {
+
+            height: 10px;
+
+            background: var(--gray-light);
+
+            border-radius: 5px;
+
+            overflow: hidden;
+
+        }
+
+        
+
+        .dark-mode .skill-bar {
+
+            background: var(--dark);
+
+        }
+
+        
+
+        .skill-progress {
+
+            height: 100%;
+
+            background: var(--primary);
+
+            border-radius: 5px;
+
+            width: 0;
+
+            transition: width 1.5s ease;
+
+        }
+
+        
+
+        /* Portfolio Section */
+
+        .portfolio-grid {
+
+            display: grid;
+
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+            gap: 2rem;
+
+            margin-top: 3rem;
+
+        }
+
+        
+
+        .portfolio-item {
+
+            border-radius: var(--border-radius);
+
+            overflow: hidden;
+
+            box-shadow: var(--shadow);
+
+            position: relative;
+
+            cursor: pointer;
+
+            opacity: 0;
+
+            transform: translateY(30px);
+
+        }
+
+        
+
+        .portfolio-img {
+
+            width: 100%;
+
+            height: 250px;
+
+            object-fit: cover;
+
+            transition: var(--transition);
+
+        }
+
+        
+
+        .portfolio-overlay {
+
+            position: absolute;
+
+            top: 0;
+
+            left: 0;
+
+            width: 100%;
+
+            height: 100%;
+
+            background: rgba(37, 99, 235, 0.9);
+
+            display: flex;
+
+            flex-direction: column;
+
+            justify-content: center;
+
+            align-items: center;
+
+            opacity: 0;
+
+            transition: var(--transition);
+
+            padding: 2rem;
+
+            text-align: center;
+
+            color: white;
+
+        }
+
+        
+
+        .portfolio-item:hover .portfolio-overlay {
+
+            opacity: 1;
+
+        }
+
+        
+
+        .portfolio-item:hover .portfolio-img {
+
+            transform: scale(1.1);
+
+        }
+
+        
+
+        .portfolio-title {
+
+            font-size: 1.5rem;
+
+            margin-bottom: 0.5rem;
+
+        }
+
+        
+
+        /* Testimonials Section */
+
+        .testimonials {
+
+            background: linear-gradient(135deg, rgba(37, 99, 235, 0.05) 0%, rgba(6, 182, 212, 0.1) 100%);
+
+        }
+
+        
+
+        .dark-mode .testimonials {
+
+            background: rgba(37, 99, 235, 0.1);
+
+        }
+
+        
+
+        .testimonials-grid {
+
+            display: grid;
+
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+            gap: 2rem;
+
+            margin-top: 3rem;
+
+        }
+
+        
+
+        .testimonial-card {
+
+            background: white;
+
+            border-radius: var(--border-radius);
+
+            padding: 2rem;
+
+            box-shadow: var(--shadow);
+
+            transition: var(--transition);
+
+            opacity: 0;
+
+            transform: translateY(30px);
+
+        }
+
+        
+
+        .dark-mode .testimonial-card {
+
+            background: var(--gray-light);
+
+        }
+
+        
+
+        .testimonial-card:hover {
+
+            transform: translateY(-5px);
+
+            box-shadow: var(--shadow-lg);
+
+        }
+
+        
+
+        .testimonial-text {
+
+            font-style: italic;
+
+            margin-bottom: 1.5rem;
+
+            position: relative;
+
+            padding: 0 1.5rem;
+
+        }
+
+        
+
+        .testimonial-text::before,
+
+        .testimonial-text::after {
+
+            content: '"';
+
+            font-size: 3rem;
+
+            color: var(--primary);
+
+            opacity: 0.3;
+
+            position: absolute;
+
+        }
+
+        
+
+        .testimonial-text::before {
+
+            top: -1rem;
+
+            left: 0;
+
+        }
+
+        
+
+        .testimonial-text::after {
+
+            bottom: -2rem;
+
+            right: 0;
+
+        }
+
+        
+
+        .testimonial-author {
+
+            display: flex;
+
+            align-items: center;
+
+        }
+
+        
+
+        .testimonial-avatar {
+
+            width: 50px;
+
+            height: 50px;
+
+            border-radius: 50%;
+
+            margin-right: 1rem;
+
+            object-fit: cover;
+
+        }
+
+        
+
+        .testimonial-info h4 {
+
+            margin-bottom: 0.2rem;
+
+        }
+
+        
+
+        .testimonial-info p {
+
+            margin-bottom: 0;
+
+            color: var(--gray);
+
+        }
+
+        
+
+        /* Example Website Demo */
+
+        .example-website {
+
+            background: linear-gradient(135deg, rgba(37, 99, 235, 0.05) 0%, rgba(6, 182, 212, 0.1) 100%);
+
+            border-radius: var(--border-radius);
+
+            padding: 3rem;
+
+            margin-top: 3rem;
+
+            opacity: 0;
+
+            transform: translateY(30px);
+
+            transition: var(--transition);
+
+        }
+
+        
+
+        .dark-mode .example-website {
+
+            background: rgba(37, 99, 235, 0.1);
+
+        }
+
+        
+
+        .example-header {
+
+            display: flex;
+
+            justify-content: space-between;
+
+            align-items: center;
+
+            padding: 1rem 2rem;
+
+            background: white;
+
+            border-radius: var(--border-radius) var(--border-radius) 0 0;
+
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+
+        }
+
+        
+
+        .dark-mode .example-header {
+
+            background: var(--gray-light);
+
+        }
+
+        
+
+        .example-nav a {
+
+            margin: 0 1rem;
+
+            color: var(--dark);
+
+            font-weight: 600;
+
+        }
+
+        
+
+        .dark-mode .example-nav a {
+
+            color: var(--light);
+
+        }
+
+        
+
+        .example-hero {
+
+            padding: 4rem 2rem;
+
+            text-align: center;
+
+            background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+
+            color: white;
+
+        }
+
+        
+
+        .example-hero h2 {
+
+            font-size: 2.5rem;
+
+            margin-bottom: 1rem;
+
+        }
+
+        
+
+        .example-hero h2::after {
+
+            display: none;
+
+        }
+
+        
+
+        .example-hero p {
+
+            font-size: 1.2rem;
+
+            margin-bottom: 2rem;
+
+        }
+
+        
+
+        .example-features {
+
+            display: grid;
+
+            grid-template-columns: repeat(3, 1fr);
+
+            gap: 2rem;
+
+            padding: 3rem 2rem;
+
+            background: white;
+
+        }
+
+        
+
+        .dark-mode .example-features {
+
+            background: var(--gray-light);
+
+        }
+
+        
+
+        .example-feature {
+
+            text-align: center;
+
+            opacity: 0;
+
+            transition: var(--transition);
+
+        }
+
+        
+
+        .example-feature:hover {
+
+            transform: translateY(-5px);
+
+        }
+
+        
+
+        .example-feature-icon {
+
+            font-size: 2.5rem;
+
+            color: var(--primary);
+
+            margin-bottom: 1rem;
+
+            transition: var(--transition);
+
+        }
+
+        
+
+        .example-feature:hover .example-feature-icon {
+
+            transform: scale(1.2);
+
+            color: var(--secondary);
+
+        }
+
+        
+
+        .example-footer {
+
+            padding: 2rem;
+
+            text-align: center;
+
+            background: var(--dark);
+
+            color: white;
+
+            border-radius: 0 0 var(--border-radius) var(--border-radius);
+
+        }
+
+        
+
+        /* Contact Section */
+
+        .contact-container {
+
+            display: grid;
+
+            grid-template-columns: 1fr 1fr;
+
+            gap: 4rem;
+
+            margin-top: 3rem;
+
+        }
+
+        
+
+        .contact-info {
+
+            opacity: 0;
+
+            transform: translateX(-30px);
+
+        }
+
+        
+
+        .contact-method {
+
+            display: flex;
+
+            align-items: center;
+
+            margin-bottom: 2rem;
+
+            transition: var(--transition);
+
+        }
+
+        
+
+        .contact-method:hover {
+
+            transform: translateX(5px);
+
+        }
+
+        
+
+        .contact-icon {
+
+            font-size: 1.5rem;
+
+            margin-right: 1rem;
+
+            color: var(--primary);
+
+            transition: var(--transition);
+
+        }
+
+        
+
+        .contact-method:hover .contact-icon {
+
+            transform: scale(1.2);
+
+            color: var(--secondary);
+
+        }
+
+        
+
+        .contact-form {
+
+            opacity: 0;
+
+            transform: translateX(30px);
+
+        }
+
+        
+
+        .form-group {
+
+            margin-bottom: 1.5rem;
+
+        }
+
+        
+
+        .form-label {
+
+            display: block;
+
+            margin-bottom: 0.5rem;
+
+            font-weight: 600;
+
+        }
+
+        
+
+        .form-input {
+
+            width: 100%;
+
+            padding: 0.8rem 1rem;
+
+            border: 1px solid var(--gray-light);
+
+            border-radius: var(--border-radius);
+
+            font-family: inherit;
+
+            font-size: 1rem;
+
+            transition: var(--transition);
+
+        }
+
+        
+
+        .dark-mode .form-input {
+
+            background: var(--gray-light);
+
+            color: var(--dark);
+
+            border-color: var(--dark);
+
+        }
+
+        
+
+        .form-input:focus {
+
+            outline: none;
+
+            border-color: var(--primary);
+
+            box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.2);
+
+        }
+
+        
+
+        textarea.form-input {
+
+            min-height: 150px;
+
+            resize: vertical;
+
+        }
+
+        
+
+        .form-error {
+
+            color: var(--error);
+
+            font-size: 0.9rem;
+
+            margin-top: 0.5rem;
+
+            display: none;
+
+        }
+
+        
+
+        /* Footer */
+
+        footer {
+
+            background: var(--dark);
+
+            color: white;
+
+            padding: 4rem 0 2rem;
+
+        }
+
+        
+
+        .dark-mode footer {
+
+            background: #0f172a;
+
+        }
+
+        
+
+        .footer-grid {
+
+            display: grid;
+
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+
+            gap: 3rem;
+
+        }
+
+        
+
+        .footer-logo {
+
+            font-size: 2rem;
+
+            font-weight: 800;
+
+            margin-bottom: 1rem;
+
+            color: white;
+
+        }
+
+        
+
+        .footer-social {
+
+            display: flex;
+
+            gap: 1rem;
+
+            margin-top: 1.5rem;
+
+        }
+
+        
+
+        .social-icon {
+
+            display: inline-flex;
+
+            align-items: center;
+
+            justify-content: center;
+
+            width: 40px;
+
+            height: 40px;
+
+            background: rgba(255, 255, 255, 0.1);
+
+            border-radius: 50%;
+
+            color: white;
+
+            font-size: 1.2rem;
+
+            transition: var(--transition);
+
+        }
+
+        
+
+        .social-icon:hover {
+
+            background: var(--primary);
+
+            transform: translateY(-3px);
+
+        }
+
+        
+
+        .footer-links h3 {
+
+            color: white;
+
+            margin-bottom: 1.5rem;
+
+            font-size: 1.2rem;
+
+        }
+
+        
+
+        .footer-links ul {
+
+            list-style: none;
+
+        }
+
+        
+
+        .footer-links li {
+
+            margin-bottom: 0.8rem;
+
+        }
+
+        
+
+        .footer-links a {
+
+            color: rgba(255, 255, 255, 0.8);
+
+            transition: var(--transition);
+
+        }
+
+        
+
+        .footer-links a:hover {
+
+            color: white;
+
+        }
+
+        
+
+        .footer-bottom {
+
+            text-align: center;
+
+            margin-top: 4rem;
+
+            padding-top: 2rem;
+
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+
+        }
+
+        
+
+        /* WhatsApp Float */
+
+        .whatsapp-float {
+
+            position: fixed;
+
+            bottom: 2rem;
+
+            right: 2rem;
+
+            width: 60px;
+
+            height: 60px;
+
+            background: #25D366;
+
+            color: white;
+
+            border-radius: 50%;
+
+            display: flex;
+
+            align-items: center;
+
+            justify-content: center;
+
+            font-size: 1.8rem;
+
+            box-shadow: var(--shadow-lg);
+
+            z-index: 999;
+
+            transition: var(--transition);
+
+            animation: pulse 2s infinite;
+
+        }
+
+        
+
+        .whatsapp-float:hover {
+
+            transform: scale(1.1);
+
+            background: #128C7E;
+
+        }
+
+        
+
+        /* Modal */
+
+        .modal {
+
+            position: fixed;
+
+            top: 0;
+
+            left: 0;
+
+            width: 100%;
+
+            height: 100%;
+
+            background: rgba(0, 0, 0, 0.8);
+
+            display: flex;
+
+            align-items: center;
+
+            justify-content: center;
+
+            z-index: 1000;
+
+            opacity: 0;
+
+            visibility: hidden;
+
+            transition: var(--transition);
+
+        }
+
+        
+
+        .modal.open {
+
+            opacity: 1;
+
+            visibility: visible;
+
+        }
+
+        
+
+        .modal-content {
+
+            max-width: 800px;
+
+            width: 90%;
+
+            background: white;
+
+            border-radius: var(--border-radius);
+
+            overflow: hidden;
+
+            position: relative;
+
+            transform: scale(0.9);
+
+            transition: var(--transition);
+
+        }
+
+        
+
+        .dark-mode .modal-content {
+
+            background: var(--gray-light);
+
+        }
+
+        
+
+        .modal.open .modal-content {
+
+            transform: scale(1);
+
+        }
+
+        
+
+        .modal-close {
+
+            position: absolute;
+
+            top: 1rem;
+
+            right: 1rem;
+
+            background: rgba(0, 0, 0, 0.5);
+
+            color: white;
+
+            width: 40px;
+
+            height: 40px;
+
+            border-radius: 50%;
+
+            display: flex;
+
+            align-items: center;
+
+            justify-content: center;
+
+            font-size: 1.5rem;
+
+            cursor: pointer;
+
+            z-index: 10;
+
+            transition: var(--transition);
+
+        }
+
+        
+
+        .modal-close:hover {
+
+            background: rgba(0, 0, 0, 0.8);
+
+        }
+
+        
+
+        .modal-img {
+
+            width: 100%;
+
+            max-height: 70vh;
+
+            object-fit: contain;
+
+        }
+
+        
+
+        .modal-details {
+
+            padding: 2rem;
+
+        }
+
+        
+
+        /* Additional Services Section */
+
+        .additional-services {
+
+            background: linear-gradient(135deg, rgba(37, 99, 235, 0.05) 0%, rgba(6, 182, 212, 0.1) 100%);
+
+        }
+
+        
+
+        .dark-mode .additional-services {
+
+            background: rgba(37, 99, 235, 0.1);
+
+        }
+
+        
+
+        .service-list {
+
+            margin-top: 2rem;
+
+        }
+
+        
+
+        .service-item {
+
+            background: white;
+
+            border-radius: var(--border-radius);
+
+            padding: 1.5rem;
+
+            margin-bottom: 1.5rem;
+
+            box-shadow: var(--shadow);
+
+            transition: var(--transition);
+
+        }
+
+        
+
+        .dark-mode .service-item {
+
+            background: var(--gray-light);
+
+        }
+
+        
+
+        .service-item:hover {
+
+            transform: translateY(-5px);
+
+            box-shadow: var(--shadow-lg);
+
+        }
+
+        
+
+        .service-item h3 {
+
+            color: var(--primary);
+
+            margin-bottom: 0.5rem;
+
+        }
+
+        
+
+        /* Process Section */
+
+        .process-steps {
+
+            display: grid;
+
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+
+            gap: 2rem;
+
+            margin-top: 3rem;
+
+        }
+
+        
+
+        .process-step {
+
+            text-align: center;
+
+            padding: 2rem;
+
+            border-radius: var(--border-radius);
+
+            background: white;
+
+            box-shadow: var(--shadow);
+
+            transition: var(--transition);
+
+        }
+
+        
+
+        .dark-mode .process-step {
+
+            background: var(--gray-light);
+
+        }
+
+        
+
+        .process-step:hover {
+
+            transform: translateY(-5px);
+
+            box-shadow: var(--shadow-lg);
+
+        }
+
+        
+
+        .step-number {
+
+            display: inline-flex;
+
+            align-items: center;
+
+            justify-content: center;
+
+            width: 50px;
+
+            height: 50px;
+
+            background: var(--primary);
+
+            color: white;
+
+            border-radius: 50%;
+
+            font-size: 1.5rem;
+
+            font-weight: bold;
+
+            margin-bottom: 1rem;
+
+        }
+
+        
+
+        /* NEW: Device Mockups */
+
+        .device-mockup {
+
+            position: relative;
+
+            max-width: 800px;
+
+            margin: 2rem auto;
+
+        }
+
+        
+
+        .device-mockup img {
+
+            border-radius: 12px;
+
+            box-shadow: var(--shadow-lg);
+
+        }
+
+        
+
+        .device-comparison {
+
+            display: flex;
+
+            justify-content: center;
+
+            align-items: center;
+
+            gap: 2rem;
+
+            margin: 3rem 0;
+
+        }
+
+        
+
+        .device-item {
+
+            text-align: center;
+
+            flex: 1;
+
+        }
+
+        
+
+        .device-item img {
+
+            max-width: 100%;
+
+            height: auto;
+
+            transition: var(--transition);
+
+        }
+
+        
+
+        .device-item:hover img {
+
+            transform: translateY(-5px);
+
+        }
+
+        
+
+        /* NEW: Case Study Section */
+
+        .case-study {
+
+            background: white;
+
+            border-radius: var(--border-radius);
+
+            overflow: hidden;
+
+            box-shadow: var(--shadow-lg);
+
+            margin: 3rem 0;
+
+        }
+
+        
+
+        .dark-mode .case-study {
+
+            background: var(--gray-light);
+
+        }
+
+        
+
+        .case-study-header {
+
+            padding: 2rem;
+
+            background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+
+            color: white;
+
+        }
+
+        
+
+        .case-study-content {
+
+            padding: 2rem;
+
+        }
+
+        
+
+        .case-study-stats {
+
+            display: grid;
+
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+
+            gap: 1.5rem;
+
+            margin: 2rem 0;
+
+        }
+
+        
+
+        .stat-item {
+
+            text-align: center;
+
+            padding: 1.5rem;
+
+            background: rgba(37, 99, 235, 0.1);
+
+            border-radius: var(--border-radius);
+
+        }
+
+        
+
+        .stat-number {
+
+            font-size: 2.5rem;
+
+            font-weight: 700;
+
+            color: var(--primary);
+
+            margin-bottom: 0.5rem;
+
+        }
+
+        
+
+        /* NEW: SEO Performance Section */
+
+        .seo-performance {
+
+            background: linear-gradient(135deg, rgba(37, 99, 235, 0.05) 0%, rgba(6, 182, 212, 0.1) 100%);
+
+            border-radius: var(--border-radius);
+
+            padding: 3rem;
+
+            margin: 3rem 0;
+
+        }
+
+        
+
+        .dark-mode .seo-performance {
+
+            background: rgba(37, 99, 235, 0.1);
+
+        }
+
+        
+
+        .performance-comparison {
+
+            display: grid;
+
+            grid-template-columns: 1fr 1fr;
+
+            gap: 2rem;
+
+            margin-top: 2rem;
+
+        }
+
+        
+
+        .performance-card {
+
+            background: white;
+
+            border-radius: var(--border-radius);
+
+            padding: 2rem;
+
+            box-shadow: var(--shadow);
+
+        }
+
+        
+
+        .dark-mode .performance-card {
+
+            background: var(--gray-light);
+
+        }
+
+        
+
+        .performance-card h4 {
+
+            color: var(--primary);
+
+            margin-bottom: 1rem;
+
+        }
+
+        
+
+        /* Animations */
+
+        @keyframes fadeUp {
+
+            from {
+
+                opacity: 0;
+
+                transform: translateY(30px);
+
+            }
+
+            to {
+
+                opacity: 1;
+
+                transform: translateY(0);
+
+            }
+
+        }
+
+        
+
+        @keyframes fadeIn {
+
+            from {
+
+                opacity: 0;
+
+            }
+
+            to {
+
+                opacity: 1;
+
+            }
+
+        }
+
+        
+
+        @keyframes float {
+
+            0% {
+
+                transform: translateY(0) rotate(0deg);
+
+            }
+
+            50% {
+
+                transform: translateY(-20px) rotate(10deg);
+
+            }
+
+            100% {
+
+                transform: translateY(0) rotate(0deg);
+
+            }
+
+        }
+
+        
+
+        @keyframes pulse {
+
+            0% {
+
+                box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.7);
+
+            }
+
+            70% {
+
+                box-shadow: 0 0 0 15px rgba(37, 211, 102, 0);
+
+            }
+
+            100% {
+
+                box-shadow: 0 0 0 0 rgba(37, 211, 102, 0);
+
+            }
+
+        }
+
+        
+
+        @keyframes typing {
+
+            from { width: 0 }
+
+            to { width: 100% }
+
+        }
+
+        
+
+        @keyframes blink {
+
+            0%, 100% { opacity: 1; }
+
+            50% { opacity: 0; }
+
+        }
+
+        
+
+        /* Scroll to Top Button */
+
+        .scroll-top {
+
+            position: fixed;
+
+            bottom: 2rem;
+
+            right: 7rem;
+
+            width: 50px;
+
+            height: 50px;
+
+            background: var(--primary);
+
+            color: white;
+
+            border-radius: 50%;
+
+            display: flex;
+
+            align-items: center;
+
+            justify-content: center;
+
+            font-size: 1.5rem;
+
+            box-shadow: var(--shadow);
+
+            z-index: 998;
+
+            cursor: pointer;
+
+            opacity: 0;
+
+            visibility: hidden;
+
+            transition: var(--transition);
+
+        }
+
+        
+
+        .scroll-top.visible {
+
+            opacity: 1;
+
+            visibility: visible;
+
+        }
+
+        
+
+        .scroll-top:hover {
+
+            background: var(--primary-dark);
+
+            transform: translateY(-5px);
+
+        }
+
+        
+
+        /* Responsive Styles */
+
+        @media (max-width: 992px) {
+
+            h1 {
+
+                font-size: 3rem;
+
+            }
+
+            
+
+            h2 {
+
+                font-size: 2.2rem;
+
+            }
+
+            
+
+            .about-content,
+
+            .contact-container {
+
+                grid-template-columns: 1fr;
+
+                gap: 3rem;
+
+            }
+
+            
+
+            .example-features {
+
+                grid-template-columns: 1fr 1fr;
+
+            }
+
+            
+
+            .performance-comparison {
+
+                grid-template-columns: 1fr;
+
+            }
+
+            
+
+            .device-comparison {
+
+                flex-direction: column;
+
+            }
+
+            
+
+            .scroll-top {
+
+                right: 5rem;
+
+                bottom: 5.5rem;
+
+            }
+
+        }
+
+        
+
+        @media (max-width: 768px) {
+
+            .nav-menu {
+
+                position: fixed;
+
+                top: 0;
+
+                right: -100%;
+
+                width: 70%;
+
+                height: 100vh;
+
+                background: white;
+
+                flex-direction: column;
+
+                align-items: center;
+
+                justify-content: center;
+
+                transition: var(--transition);
+
+                box-shadow: -5px 0 15px rgba(0, 0, 0, 0.1);
+
+            }
+
+            
+
+            .dark-mode .nav-menu {
+
+                background: var(--gray-light);
+
+            }
+
+            
+
+            .nav-menu.active {
+
+                right: 0;
+
+            }
+
+            
+
+            .nav-link {
+
+                margin: 1.5rem 0;
+
+                font-size: 1.2rem;
+
+            }
+
+            
+
+            .hamburger {
+
+                display: block;
+
+                font-size: 1.5rem;
+
+            }
+
+            
+
+            .hero-title {
+
+                font-size: 2.5rem;
+
+            }
+
+            
+
+            .hero-subtitle {
+
+                font-size: 1.2rem;
+
+            }
+
+            
+
+            .hero-buttons {
+
+                flex-direction: column;
+
+            }
+
+            
+
+            .services-grid,
+
+            .portfolio-grid,
+
+            .testimonials-grid,
+
+            .process-steps {
+
+                grid-template-columns: 1fr;
+
+            }
+
+            
+
+            .example-features {
+
+                grid-template-columns: 1fr;
+
+            }
+
+            
+
+            .footer-grid {
+
+                grid-template-columns: 1fr;
+
+                text-align: center;
+
+            }
+
+            
+
+            .footer-social {
+
+                justify-content: center;
+
+            }
+
+            
+
+            .scroll-top {
+
+                right: 1.5rem;
+
+                bottom: 5.5rem;
+
+            }
+
+        }
+
+        
+
+        @media (max-width: 576px) {
+
+            .section {
+
+                padding: 3rem 0;
+
+            }
+
+            
+
+            .hero {
+
+                padding-top: 6rem;
+
+            }
+
+            
+
+            .hero-title {
+
+                font-size: 2rem;
+
+            }
+
+            
+
+            .example-header {
+
+                flex-direction: column;
+
+                gap: 1rem;
+
+            }
+
+            
+
+            .example-nav {
+
+                display: flex;
+
+                flex-wrap: wrap;
+
+                justify-content: center;
+
+                gap: 0.5rem;
+
+            }
+
+            
+
+            .example-hero {
+
+                padding: 2rem 1rem;
+
+            }
+
+            
+
+            .example-hero h2 {
+
+                font-size: 1.8rem;
+
+            }
+
+            
+
+            .scroll-top {
+
+                right: 1.5rem;
+
+                bottom: 5.5rem;
+
+                width: 40px;
+
+                height: 40px;
+
+                font-size: 1.2rem;
+
+            }
+
+            
+
+            .whatsapp-float {
+
+                width: 50px;
+
+                height: 50px;
+
+                font-size: 1.5rem;
+
+                bottom: 1.5rem;
+
+                right: 1.5rem;
+
+            }
+
+            
+
+            .case-study-stats {
+
+                grid-template-columns: 1fr;
+
+            }
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <!-- Header & Navigation -->
+
+    <header id="header">
+
+        <div class="container nav-container">
+
+            <a href="#" class="logo">Idrees<span>.</span></a>
+
+            
+
+            <nav>
+
+                <ul class="nav-menu">
+
+                    <li><a href="#home" class="nav-link">Home</a></li>
+
+                    <li><a href="#services" class="nav-link">Services</a></li>
+
+                    <li><a href="#about" class="nav-link">About</a></li>
+
+                    <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+
+                    <li><a href="#process" class="nav-link">Process</a></li>
+
+                    <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+
+                </ul>
+
+            </nav>
+
+            
+
+            <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+
+            
+
+            <div class="hamburger" id="hamburger">
+
+                <i class="fas fa-bars"></i>
+
+            </div>
+
+        </div>
+
+    </header>
+
+    <!-- Hero Section -->
+
+    <section id="home" class="hero section">
+
+        <div id="particles-js"></div>
+
+        <div class="container">
+
+            <div class="hero-content">
+
+                <h1 class="hero-title">Hi, I'm <span class="typed-text" id="typed-text"></span><span class="typed-cursor">|</span></h1>
+
+                <p class="hero-subtitle">I build professional, responsive websites for shops, barbers, restaurants & local businesses that help you grow your business online.</p>
+
+                <div class="hero-buttons">
+
+                    <a href="mailto:idrees42188@gmail.com" class="btn btn-large"><i class="fas fa-envelope"></i> Email Me</a>
+
+                    <a href="https://wa.me/923317143363" target="_blank" class="btn btn-large btn-whatsapp"><i class="fab fa-whatsapp"></i> Chat on WhatsApp</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        
+
+        <div class="floating-shapes">
+
+            <div class="shape shape-1"></div>
+
+            <div class="shape shape-2"></div>
+
+            <div class="shape shape-3"></div>
+
+        </div>
+
+    </section>
+
+    <!-- Services Section -->
+
+    <section id="services" class="section">
+
+        <div class="container">
+
+            <h2 class="text-center">My Services</h2>
+
+            <p class="text-center">I offer comprehensive web development services tailored to your business needs</p>
+
+            
+
+            <div class="services-grid">
+
+                <div class="service-card">
+
+                    <div class="service-icon"><i class="fas fa-store"></i></div>
+
+                    <h3 class="service-title">E-Commerce Websites for Shops</h3>
+
+                    <p>Create beautiful, functional e-commerce websites for retail shops with product catalogs, shopping carts, secure payment processing, inventory management, and customer reviews. I integrate popular payment gateways and ensure your online store is optimized for conversions.</p>
+
+                </div>
+
+                
+
+                <div class="service-card">
+
+                    <div class="service-icon"><i class="fas fa-cut"></i></div>
+
+                    <h3 class="service-title">Barber Shop Websites</h3>
+
+                    <p>Design stylish websites for barbershops with online booking systems, service menus, barber profiles, gallery to showcase your work, customer reviews, and promotional offers. Increase bookings and showcase your barbering expertise with a professional online presence.</p>
+
+                </div>
+
+                
+
+                <div class="service-card">
+
+                    <div class="service-icon"><i class="fas fa-building"></i></div>
+
+                    <h3 class="service-title">Local Business Websites</h3>
+
+                    <p>Build professional websites for local businesses with service information, contact forms, Google Maps integration, mobile optimization, and SEO. Whether you run a restaurant, salon, clinic, or any local service, I'll create a website that attracts and converts visitors.</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Additional Services Section -->
+
+    <section class="section additional-services">
+
+        <div class="container">
+
+            <h2 class="text-center">Additional Services</h2>
+
+            <p class="text-center">Comprehensive web solutions to meet all your online needs</p>
+
+            
+
+            <div class="service-list">
+
+                <div class="service-item">
+
+                    <h3>Responsive Web Design</h3>
+
+                    <p>Websites that look great and function perfectly on all devices - desktops, tablets, and smartphones. With mobile traffic accounting for over 50% of web visits, having a mobile-friendly website is essential for your business.</p>
+
+                </div>
+
+                
+
+                <div class="service-item">
+
+                    <h3>SEO Optimization</h3>
+
+                    <p>Optimize your website to rank higher in search engine results, driving more organic traffic to your business. I implement on-page SEO techniques, optimize page speed, and ensure your website follows best practices for search engines.</p>
+
+                </div>
+
+                
+
+                <div class="service-item">
+
+                    <h3>Website Maintenance & Support</h3>
+
+                    <p>Regular updates, security patches, and technical support to keep your website running smoothly. I offer ongoing maintenance packages to ensure your website remains secure, up-to-date, and performing optimally.</p>
+
+                </div>
+
+                
+
+                <div class="service-item">
+
+                    <h3>Content Management Systems</h3>
+
+                    <p>Easy-to-update websites using popular CMS platforms like WordPress, allowing you to manage your content without technical knowledge. I create custom themes and plugins tailored to your specific requirements.</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- About Section -->
+
+    <section id="about" class="section">
+
+        <div class="container">
+
+            <h2 class="text-center">About Me</h2>
+
+            <div class="about-content">
+
+                <div class="about-image">
+
+                    <img src="data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22400%22%20height%3D%22400%22%20viewBox%3D%220%200%20400%20400%22%3E%3Crect%20fill%3D%22%23E5E7EB%22%20width%3D%22400%22%20height%3D%22400%22%2F%3E%3Ctext%20fill%3D%22%239C92AC%22%20font-family%3D%22Arial%22%20font-size%3D%2230%22%20dy%3D%22.35em%22%20text-anchor%3D%22middle%22%20x%3D%22200%22%20y%3D%22200%22%3EIdrees%20Portrait%3C%2Ftext%3E%3C%2Fsvg%3E" alt="Idrees - Freelance Web Developer">
+
+                </div>
+
+                
+
+                <div class="about-text">
+
+                    <p>Hello! I'm Idrees, a passionate freelance web developer based in Pakistan with over 5 years of experience in creating stunning, functional websites for businesses of all sizes. I specialize in developing responsive and user-friendly websites that help businesses establish a strong online presence and reach more customers.</p>
+
+                    <p>My expertise includes HTML5, CSS3, JavaScript, React, and various backend technologies. I am committed to delivering high-quality websites that are not only visually appealing but also optimized for performance and search engines.</p>
+
+                    <p>I understand the unique challenges that local businesses face when establishing an online presence. That's why I focus on creating affordable, effective web solutions that deliver real results. Whether you need an e-commerce store, a booking system, or a simple informational website, I can help bring your vision to life.</p>
+
+                    <p>My approach is collaborative - I work closely with my clients to understand their business goals and create websites that effectively represent their brand and drive growth. I believe in clear communication, meeting deadlines, and exceeding expectations.</p>
+
+                    
+
+                    <div class="skills-container">
+
+                        <div class="skill">
+
+                            <div class="skill-name">
+
+                                <span>HTML/CSS</span>
+
+                                <span>95%</span>
+
+                            </div>
+
+                            <div class="skill-bar">
+
+                                <div class="skill-progress" data-width="95%"></div>
+
+                            </div>
+
+                        </div>
+
+                        
+
+                        <div class="skill">
+
+                            <div class="skill-name">
+
+                                <span>JavaScript</span>
+
+                                <span>90%</span>
+
+                            </div>
+
+                            <div class="skill-bar">
+
+                                <div class="skill-progress" data-width="90%"></div>
+
+                            </div>
+
+                        </div>
+
+                        
+
+                        <div class="skill">
+
+                            <div class="skill-name">
+
+                                <span>Responsive Design</span>
+
+                                <span>98%</span>
+
+                            </div>
+
+                            <div class="skill-bar">
+
+                                <div class="skill-progress" data-width="98%"></div>
+
+                            </div>
+
+                        </div>
+
+                        
+
+                        <div class="skill">
+
+                            <div class="skill-name">
+
+                                <span>SEO Optimization</span>
+
+                                <span>85%</span>
+
+                            </div>
+
+                            <div class="skill-bar">
+
+                                <div class="skill-progress" data-width="85%"></div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Process Section -->
+
+    <section id="process" class="section">
+
+        <div class="container">
+
+            <h2 class="text-center">My Development Process</h2>
+
+            <p class="text-center">A structured approach to delivering high-quality websites</p>
+
+            
+
+            <div class="process-steps">
+
+                <div class="process-step">
+
+                    <div class="step-number">1</div>
+
+                    <h3>Consultation</h3>
+
+                    <p>We discuss your business goals, target audience, and requirements to create a project plan.</p>
+
+                </div>
+
+                
+
+                <div class="process-step">
+
+                    <div class="step-number">2</div>
+
+                    <h3>Design</h3>
+
+                    <p>I create wireframes and mockups for your approval before starting development.</p>
+
+                </div>
+
+                
+
+                <div class="process-step">
+
+                    <div class="step-number">3</div>
+
+                    <h3>Development</h3>
+
+                    <p>I build your website using modern technologies, ensuring responsiveness and performance.</p>
+
+                </div>
+
+                
+
+                <div class="process-step">
+
+                    <div class="step-number">4</div>
+
+                    <h3>Testing & Launch</h3>
+
+                    <p>Thorough testing across devices followed by deployment and going live.</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Portfolio Section -->
+
+    <section id="portfolio" class="section">
+
+        <div class="container">
+
+            <h2 class="text-center">My Work</h2>
+
+            <p class="text-center">Check out some of my recent projects for local businesses</p>
+
+            
+
+            <div class="portfolio-grid">
+
+                <div class="portfolio-item">
+
+                    <img src="data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22600%22%20height%3D%22400%22%20viewBox%3D%220%200%20600%20400%22%3E%3Crect%20fill%3D%22%23E5E7EB%22%20width%3D%22600%22%20height%3D%22400%22%2F%3E%3Ctext%20fill%3D%22%239C92AC%22%20font-family%3D%22Arial%22%20font-size%3D%2220%22%20dy%3D%22.35em%22%20text-anchor%3D%22middle%22%20x%3D%22300%22%20y%3D%22200%22%3EFashion%20Shop%20Website%3C%2Ftext%3E%3C%2Fsvg%3E" alt="Fashion Shop Website" class="portfolio-img">
+
+                    <div class="portfolio-overlay">
+
+                        <h3 class="portfolio-title">Fashion Shop</h3>
+
+                        <p>E-commerce website with product catalog and secure checkout</p>
+
+                        <button class="btn view-project" data-project="1">View Project</button>
+
+                    </div>
+
+                </div>
+
+                
+
+                <div class="portfolio-item">
+
+                    <img src="data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22600%22%20height%3D%22400%22%20viewBox%3D%220%200%20600%20400%22%3E%3Crect%20fill%3D%22%23E5E7EB%22%20width%3D%22600%22%20height%3D%22400%22%2F%3E%3Ctext%20fill%3D%22%239C92AC%22%20font-family%3D%22Arial%22%20font-size%3D%2220%22%20dy%3D%22.35em%22%20text-anchor%3D%22middle%22%20x%3D%22300%22%20y%3D%22200%22%3EBarber%20Shop%20Website%3C%2Ftext%3E%3C%2Fsvg%3E" alt="Barber Shop Website" class="portfolio-img">
+
+                    <div class="portfolio-overlay">
+
+                        <h3 class="portfolio-title">Premium Barbers</h3>
+
+                        <p>Barber shop website with online booking system</p>
+
+                        <button class="btn view-project" data-project="2">View Project</button>
+
+                    </div>
+
+                </div>
+
+                
+
+                <div class="portfolio-item">
+
+                    <img src="data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22600%22%20height%3D%22400%22%20viewBox%3D%220%200%20600%20400%22%3E%3Crect%20fill%3D%22%23E5E7EB%22%20width%3D%22600%22%20height%3D%22400%22%2F%3E%3Ctext%20fill%3D%22%239C92AC%22%20font-family%3D%22Arial%22%20font-size%3D%2220%22%20dy%3D%22.35em%22%20text-anchor%3D%22middle%22%20x%3D%22300%22%20y%3D%22200%22%3ERestaurant%20Website%3C%2Ftext%3E%3C%2Fsvg%3E" alt="Restaurant Website" class="portfolio-img">
+
+                    <div class="portfolio-overlay">
+
+                        <h3 class="portfolio-title">Local Restaurant</h3>
+
+                        <p>Restaurant website with menu, online ordering and reservation system</p>
+
+                        <button class="btn view-project" data-project="3">View Project</button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            
+
+            <!-- NEW: Case Study Section -->
+
+            <div class="case-study">
+
+                <div class="case-study-header">
+
+                    <h3>Fashion Shop Case Study</h3>
+
+                    <p>How I helped a local boutique increase online sales by 150%</p>
+
+                </div>
+
+                <div class="case-study-content">
+
+                    <p>This project involved creating a complete e-commerce solution for a local fashion boutique. The client wanted to expand their business online and reach a wider audience.</p>
+
+                    
+
+                    <div class="case-study-stats">
+
+                        <div class="stat-item">
+
+                            <div class="stat-number">150%</div>
+
+                            <p>Increase in online sales</p>
+
+                        </div>
+
+                        <div class="stat-item">
+
+                            <div class="stat-number">40%</div>
+
+                            <p>Faster page load speed</p>
+
+                        </div>
+
+                        <div class="stat-item">
+
+                            <div class="stat-number">3.2s</div>
+
+                            <p>Average page load time</p>
+
+                        </div>
+
+                    </div>
+
+                    
+
+                    <h4>Technologies Used:</h4>
+
+                    <p>HTML5, CSS3, JavaScript, React, Node.js, MongoDB, Stripe Payment Integration</p>
+
+                    
+
+                    <div class="device-comparison">
+
+                        <div class="device-item">
+
+                            <img src="data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22300%22%20height%3D%22200%22%20viewBox%3D%220%200%20300%20200%22%3E%3Crect%20fill%3D%22%23E5E7EB%22%20width%3D%22300%22%20height%3D%22200%22%2F%3E%3Ctext%20fill%3D%22%239C92AC%22%20font-family%3D%22Arial%22%20font-size%3D%2216%22%20dy%3D%22.35em%22%20text-anchor%3D%22middle%22%20x%3D%22150%22%20y%3D%22100%22%3EDesktop%20View%3C%2Ftext%3E%3C%2Fsvg%3E" alt="Desktop View">
+
+                            <p>Desktop View</p>
+
+                        </div>
+
+                        <div class="device-item">
+
+                            <img src="data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22150%22%20height%3D%22200%22%20viewBox%3D%220%200%20150%20200%22%3E%3Crect%20fill%3D%22%23E5E7EB%22%20width%3D%22150%22%20height%3D%22200%22%2F%3E%3Ctext%20fill%3D%22%239C92AC%22%20font-family%3D%22Arial%22%20font-size%3D%2214%22%20dy%3D%22.35em%22%20text-anchor%3D%22middle%22%20x%3D%2275%22%20y%3D%22100%22%3ETablet%20View%3C%2Ftext%3E%3C%2Fsvg%3E" alt="Tablet View">
+
+                            <p>Tablet View</p>
+
+                        </div>
+
+                        <div class="device-item">
+
+                            <img src="data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2280%22%20height%3D%22200%22%20viewBox%3D%220%200%2080%20200%22%3E%3Crect%20fill%3D%22%23E5E7EB%22%20width%3D%2280%22%20height%3D%22200%22%2F%3E%3Ctext%20fill%3D%22%239C92AC%22%20font-family%3D%22Arial%22%20font-size%3D%2212%22%20dy%3D%22.35em%22%20text-anchor%3D%22middle%22%20x%3D%2240%22%20y%3D%22100%22%3EMobile%20View%3C%2Ftext%3E%3C%2Fsvg%3E" alt="Mobile View">
+
+                            <p>Mobile View</p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            
+
+            <!-- NEW: SEO Performance Section -->
+
+            <div class="seo-performance">
+
+                <h3 class="text-center">SEO & Performance Improvements</h3>
+
+                <p class="text-center">I optimize websites for both search engines and users, ensuring fast load times and high conversion rates</p>
+
+                
+
+                <div class="performance-comparison">
+
+                    <div class="performance-card">
+
+                        <h4>Before Optimization</h4>
+
+                        <ul>
+
+                            <li>Page load time: 5.8s</li>
+
+                            <li>Google PageSpeed Score: 45/100</li>
+
+                            <li>Mobile responsiveness: Poor</li>
+
+                            <li>Search engine ranking: Page 3+</li>
+
+                        </ul>
+
+                    </div>
+
+                    
+
+                    <div class="performance-card">
+
+                        <h4>After Optimization</h4>
+
+                        <ul>
+
+                            <li>Page load time: 2.1s</li>
+
+                            <li>Google PageSpeed Score: 92/100</li>
+
+                            <li>Mobile responsiveness: Excellent</li>
+
+                            <li>Search engine ranking: Page 1</li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Testimonials Section -->
+
+    <section id="testimonials" class="section testimonials">
+
+        <div class="container">
+
+            <h2 class="text-center">What My Clients Say</h2>
+
+            <p class="text-center">Don't just take my word for it - hear from my satisfied clients</p>
+
+            
+
+            <div class="testimonials-grid">
+
+                <div class="testimonial-card">
+
+                    <div class="testimonial-text">
+
+                        Idrees created an amazing website for my barber shop. The online booking system has increased my appointments by 40%! He was professional, responsive, and delivered beyond my expectations.
+
+                    </div>
+
+                    <div class="testimonial-author">
+
+                        <img src="data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2250%22%20height%3D%2250%22%20viewBox%3D%220%200%2050%2050%22%3E%3Crect%20fill%3D%22%23E5E7EB%22%20width%3D%2250%22%20height%3D%2250%22%2F%3E%3Ctext%20fill%3D%22%239C92AC%22%20font-family%3D%22Arial%22%20font-size%3D%2220%22%20dy%3D%22.35em%22%20text-anchor%3D%22middle%22%20x%3D%2225%22%20y%3D%2225%22%3EA%3C%2Ftext%3E%3C%2Fsvg%3E" alt="Client" class="testimonial-avatar">
+
+                        <div class="testimonial-info">
+
+                            <h4>Ali Khan</h4>
+
+                            <p>Barber Shop Owner</p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                
+
+                <div class="testimonial-card">
+
+                    <div class="testimonial-text">
+
+                        The e-commerce website Idrees built for my clothing store has doubled my online sales. Highly recommended! He understood my vision and created a website that perfectly represents my brand.
+
+                    </div>
+
+                    <div class="testimonial-author">
+
+                        <img src="data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2250%22%20height%3D%2250%22%20viewBox%3D%220%200%2050%2050%22%3E%3Crect%20fill%3D%22%23E5E7EB%22%20width%3D%2250%22%20height%3D%2250%22%2F%3E%3Ctext%20fill%3D%22%239C92AC%22%20font-family%3D%22Arial%22%20font-size%3D%2220%22%20dy%3D%22.35em%22%20text-anchor%3D%22middle%22%20x%3D%2225%22%20y%3D%2225%22%3EB%3C%2Ftext%3E%3C%2Fsvg%3E" alt="Client" class="testimonial-avatar">
+
+                        <div class="testimonial-info">
+
+                            <h4>Fatima Ahmed</h4>
+
+                            <p>Fashion Boutique Owner</p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                
+
+                <div class="testimonial-card">
+
+                    <div class="testimonial-text">
+
+                        Professional, responsive, and delivered on time. My restaurant website gets compliments from customers daily. The online ordering system has significantly increased our takeaway orders.
+
+                    </div>
+
+                    <div class="testimonial-author">
+
+                        <img src="data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2250%22%20height%3D%2250%22%20viewBox%3D%220%200%2050%2050%22%3E%3Crect%20fill%3D%22%23E5E7EB%22%20width%3D%2250%22%20height%3D%2250%22%2F%3E%3Ctext%20fill%3D%22%239C92AC%22%20font-family%3D%22Arial%22%20font-size%3D%2220%22%20dy%3D%22.35em%22%20text-anchor%3D%22middle%22%20x%3D%2225%22%20y%3D%2225%22%3EC%3C%2Ftext%3E%3C%2Fsvg%3E" alt="Client" class="testimonial-avatar">
+
+                        <div class="testimonial-info">
+
+                            <h4>Omar Hassan</h4>
+
+                            <p>Restaurant Owner</p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Example Website Demo Section -->
+
+    <section class="section">
+
+        <div class="container">
+
+            <h2 class="text-center">Example Website Homepage</h2>
+
+            <p class="text-center">This is how your business website could look</p>
+
+            
+
+            <div class="example-website">
+
+                <header class="example-header">
+
+                    <div class="example-logo">Example Shop</div>
+
+                    <nav class="example-nav">
+
+                        <a href="#">Home</a>
+
+                        <a href="#">Products</a>
+
+                        <a href="#">Services</a>
+
+                        <a href="#">About</a>
+
+                        <a href="#">Contact</a>
+
+                    </nav>
+
+                </header>
+
+                
+
+                <section class="example-hero">
+
+                    <h2>Welcome to Example Shop</h2>
+
+                    <p>Your one-stop destination for quality products and services</p>
+
+                    <a href="#" class="btn btn-large">Order Now</a>
+
+                </section>
+
+                
+
+                <section class="example-features">
+
+                    <div class="example-feature">
+
+                        <div class="example-feature-icon"><i class="fas fa-truck"></i></div>
+
+                        <h3>Fast Delivery</h3>
+
+                        <p>We deliver quickly to your doorstep</p>
+
+                    </div>
+
+                    
+
+                    <div class="example-feature">
+
+                        <div class="example-feature-icon"><i class="fas fa-star"></i></div>
+
+                        <h3>Quality Products</h3>
+
+                        <p>We offer only the best quality items</p>
+
+                    </div>
+
+                    
+
+                    <div class="example-feature">
+
+                        <div class="example-feature-icon"><i class="fas fa-tag"></i></div>
+
+                        <h3>Best Prices</h3>
+
+                        <p>Competitive pricing for all products</p>
+
+                    </div>
+
+                </section>
+
+                
+
+                <footer class="example-footer">
+
+                    <p>© 2023 Example Shop. All rights reserved.</p>
+
+                </footer>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Contact Section -->
+
+    <section id="contact" class="section">
+
+        <div class="container">
+
+            <h2 class="text-center">Get In Touch</h2>
+
+            <p class="text-center">Ready to start your project? Contact me today for a free consultation!</p>
+
+            
+
+            <div class="contact-container">
+
+                <div class="contact-info">
+
+                    <p>I'm available to discuss your project requirements and provide a free quote. Reach out through any of these channels:</p>
+
+                    
+
+                    <div class="contact-method">
+
+                        <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+
+                        <div>
+
+                            <h3>Email</h3>
+
+                            <p>idrees42188@gmail.com</p>
+
+                        </div>
+
+                    </div>
+
+                    
+
+                    <div class="contact-method">
+
+                        <div class="contact-icon"><i class="fab fa-whatsapp"></i></div>
+
+                        <div>
+
+                            <h3>WhatsApp</h3>
+
+                            <p>+92 331 7143363</p>
+
+                        </div>
+
+                    </div>
+
+                    
+
+                    <div class="contact-method">
+
+                        <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+
+                        <div>
+
+                            <h3>Location</h3>
+
+                            <p>Pakistan</p>
+
+                        </div>
+
+                    </div>
+
+                    
+
+                    <div class="contact-method">
+
+                        <div class="contact-icon"><i class="fas fa-clock"></i></div>
+
+                        <div>
+
+                            <h3>Availability</h3>
+
+                            <p>Monday - Saturday: 9AM - 6PM</p>
+
+                        </div>
+
+                    </div>
+
+                    
+
+                    <div class="hero-buttons">
+
+                        <a href="mailto:idrees42188@gmail.com" class="btn"><i class="fas fa-envelope"></i> Email Me</a>
+
+                        <a href="https://wa.me/923317143363" target="_blank" class="btn btn-whatsapp"><i class="fab fa-whatsapp"></i> Chat on WhatsApp</a>
+
+                    </div>
+
+                </div>
+
+                
+
+                <div class="contact-form">
+
+                    <form id="contactForm">
+
+                        <div class="form-group">
+
+                            <label for="name" class="form-label">Your Name</label>
+
+                            <input type="text" id="name" class="form-input" placeholder="Enter your name" required>
+
+                            <div class="form-error" id="name-error">Please enter your name</div>
+
+                        </div>
+
+                        
+
+                        <div class="form-group">
+
+                            <label for="email" class="form-label">Your Email</label>
+
+                            <input type="email" id="email" class="form-input" placeholder="Enter your email" required>
+
+                            <div class="form-error" id="email-error">Please enter a valid email</div>
+
+                        </div>
+
+                        
+
+                        <div class="form-group">
+
+                            <label for="business" class="form-label">Business Type</label>
+
+                            <select id="business" class="form-input" required>
+
+                                <option value="">Select your business type</option>
+
+                                <option value="shop">Shop/Retail</option>
+
+                                <option value="barber">Barber Shop</option>
+
+                                <option value="restaurant">Restaurant/Cafe</option>
+
+                                <option value="service">Service Business</option>
+
+                                <option value="other">Other</option>
+
+                            </select>
+
+                            <div class="form-error" id="business-error">Please select your business type</div>
+
+                        </div>
+
+                        
+
+                        <div class="form-group">
+
+                            <label for="message" class="form-label">Your Message</label>
+
+                            <textarea id="message" class="form-input" placeholder="How can I help you? Please include any specific requirements..." required></textarea>
+
+                            <div class="form-error" id="message-error">Please enter your message</div>
+
+                        </div>
+
+                        
+
+                        <button type="submit" class="btn btn-large"><i class="fas fa-paper-plane"></i> Send Message</button>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+
+    <footer>
+
+        <div class="container">
+
+            <div class="footer-grid">
+
+                <div class="footer-about">
+
+                    <div class="footer-logo">Idrees<span>.</span></div>
+
+                    <p>Professional freelance web developer creating responsive, SEO-optimized websites for shops, barbers, restaurants, and local businesses. Based in Pakistan, serving clients worldwide.</p>
+
+                    <div class="footer-social">
+
+                        <a href="https://wa.me/923317143363" target="_blank" class="social-icon" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+
+                        <a href="https://www.facebook.com/IdreesPortfolio" target="_blank" class="social-icon" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+
+                        <a href="https://www.linkedin.com/in/IdreesPortfolio" target="_blank" class="social-icon" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+
+                    </div>
+
+                </div>
+
+                
+
+                <div class="footer-links">
+
+                    <h3>Quick Links</h3>
+
+                    <ul>
+
+                        <li><a href="#home">Home</a></li>
+
+                        <li><a href="#services">Services</a></li>
+
+                        <li><a href="#about">About</a></li>
+
+                        <li><a href="#portfolio">Portfolio</a></li>
+
+                        <li><a href="#process">Process</a></li>
+
+                        <li><a href="#testimonials">Testimonials</a></li>
+
+                        <li><a href="#contact">Contact</a></li>
+
+                    </ul>
+
+                </div>
+
+                
+
+                <div class="footer-links">
+
+                    <h3>Services</h3>
+
+                    <ul>
+
+                        <li><a href="#services">E-commerce Websites</a></li>
+
+                        <li><a href="#services">Barber Shop Websites</a></li>
+
+                        <li><a href="#services">Business Websites</a></li>
+
+                        <li><a href="#services">Responsive Design</a></li>
+
+                        <li><a href="#services">SEO Optimization</a></li>
+
+                        <li><a href="#services">Website Maintenance</a></li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+            
+
+            <div class="footer-bottom">
+
+                <p>&copy; 2023 Idrees. All rights reserved. | Professional Web Development Services</p>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+    <!-- WhatsApp Float Button -->
+
+    <a href="https://wa.me/923317143363" target="_blank" class="whatsapp-float" aria-label="Chat on WhatsApp">
+
+        <i class="fab fa-whatsapp"></i>
+
+    </a>
+
+    <!-- Scroll to Top Button -->
+
+    <div class="scroll-top" id="scroll-top">
+
+        <i class="fas fa-arrow-up"></i>
+
+    </div>
+
+    <!-- Project Modals -->
+
+    <div class="modal" id="project-modal">
+
+        <div class="modal-content">
+
+            <div class="modal-close" id="modal-close">×</div>
+
+            <img src="" alt="" class="modal-img" id="modal-img">
+
+            <div class="modal-details">
+
+                <h3 id="modal-title"></h3>
+
+                <p id="modal-description"></p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Particle.js CDN -->
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+    <script>
+
+        // DOM Elements
+
+        const themeToggle = document.getElementById('theme-toggle');
+
+        const hamburger = document.getElementById('hamburger');
+
+        const navMenu = document.querySelector('.nav-menu');
+
+        const contactForm = document.getElementById('contactForm');
+
+        const modal = document.getElementById('project-modal');
+
+        const modalClose = document.getElementById('modal-close');
+
+        const modalImg = document.getElementById('modal-img');
+
+        const modalTitle = document.getElementById('modal-title');
+
+        const modalDescription = document.getElementById('modal-description');
+
+        const scrollTopButton = document.getElementById('scroll-top');
+
+        
+
+        // Project Data
+
+        const projects = {
+
+            1: {
+
+                title: 'Fashion Shop Website',
+
+                description: 'A complete e-commerce solution for a fashion retail store with product catalog, shopping cart, secure payment processing, inventory management, and customer reviews. Integrated with popular payment gateways and optimized for mobile devices.',
+
+                image: 'data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22600%22%20viewBox%3D%220%200%20800%20600%22%3E%3Crect%20fill%3D%22%23E5E7EB%22%20width%3D%22800%22%20height%3D%22600%22%2F%3E%3Ctext%20fill%3D%22%239C92AC%22%20font-family%3D%22Arial%22%20font-size%3D%2224%22%20dy%3D%22.35em%22%20text-anchor%3D%22middle%22%20x%3D%22400%22%20y%3D%22300%22%3EFashion%20Shop%20Website%20-%20Project%20Details%3C%2Ftext%3E%3C%2Fsvg%3E'
+
+            },
+
+            2: {
+
+                title: 'Premium Barbers Website',
+
+                description: 'A stylish website for a barber shop featuring online booking, service menus, barber profiles, gallery to showcase their work, and customer reviews. The website helped increase bookings by 40% and improved customer engagement.',
+
+                image: 'data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22600%22%20viewBox%3D%220%200%20800%20600%22%3E%3Crect%20fill%3D%22%23E5E7EB%22%20width%3D%22800%22%20height%3D%22600%22%2F%3E%3Ctext%20fill%3D%22%239C92AC%22%20font-family%3D%22Arial%22%20font-size%3D%2224%22%20dy%3D%22.35em%22%20text-anchor%3D%22middle%22%20x%3D%22400%22%20y%3D%22300%22%3EBarber%20Shop%20Website%20-%20Project%20Details%3C%2Ftext%3E%3C%2Fsvg%3E'
+
+            },
+
+            3: {
+
+                title: 'Local Restaurant Website',
+
+                description: 'A restaurant website with online menu, reservation system, food ordering functionality, and integration with delivery services. The website features high-quality food photography, customer testimonials, and improved the restaurant\'s online presence significantly.',
+
+                image: 'data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22600%22%20viewBox%3D%220%200%20800%20600%22%3E%3Crect%20fill%3D%22%23E5E7EB%22%20width%3D%22800%22%20height%3D%22600%22%2F%3E%3Ctext%20fill%3D%22%239C92AC%22%20font-family%3D%22Arial%22%20font-size%3D%2224%22%20dy%3D%22.35em%22%20text-anchor%3D%22middle%22%20x%3D%22400%22%20y%3D%22300%22%3ERestaurant%20Website%20-%20Project%20Details%3C%2Ftext%3E%3C%2Fsvg%3E'
+
+            }
+
+        };
+
+        
+
+        // Check for reduced motion preference
+
+        if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+
+            document.body.classList.add('reduce-motion');
+
+        }
+
+        
+
+        // Initialize Particle.js
+
+        function initParticles() {
+
+            particlesJS('particles-js', {
+
+                particles: {
+
+                    number: { value: 80, density: { enable: true, value_area: 800 } },
+
+                    color: { value: "#2563eb" },
+
+                    shape: { type: "circle" },
+
+                    opacity: { value: 0.5, random: true },
+
+                    size: { value: 3, random: true },
+
+                    line_linked: {
+
+                        enable: true,
+
+                        distance: 150,
+
+                        color: "#2563eb",
+
+                        opacity: 0.4,
+
+                        width: 1
+
+                    },
+
+                    move: {
+
+                        enable: true,
+
+                        speed: 2,
+
+                        direction: "none",
+
+                        random: true,
+
+                        straight: false,
+
+                        out_mode: "out",
+
+                        bounce: false
+
+                    }
+
+                },
+
+                interactivity: {
+
+                    detect_on: "canvas",
+
+                    events: {
+
+                        onhover: { enable: true, mode: "grab" },
+
+                        onclick: { enable: true, mode: "push" },
+
+                        resize: true
+
+                    }
+
+                },
+
+                retina_detect: true
+
+            });
+
+        }
+
+        
+
+        // Typing Effect
+
+        function initTypingEffect() {
+
+            const text = "Idrees";
+
+            const typedTextElement = document.getElementById('typed-text');
+
+            const cursorElement = document.querySelector('.typed-cursor');
+
+            let i = 0;
+
+            
+
+            function type() {
+
+                if (i < text.length) {
+
+                    typedTextElement.innerHTML += text.charAt(i);
+
+                    i++;
+
+                    setTimeout(type, 150);
+
+                } else {
+
+                    cursorElement.style.animation = 'none';
+
+                }
+
+            }
+
+            
+
+            type();
+
+        }
+
+        
+
+        // Theme Toggle
+
+        function initThemeToggle() {
+
+            // Check for saved theme preference or respect OS preference
+
+            if (localStorage.getItem('theme') === 'dark' || 
+
+                (window.matchMedia('(prefers-color-scheme: dark)').matches && !localStorage.getItem('theme'))) {
+
+                document.body.classList.add('dark-mode');
+
+                themeToggle.innerHTML = '<i class="fas fa-sun"></i>';
+
+            }
+
+            
+
+            themeToggle.addEventListener('click', () => {
+
+                document.body.classList.toggle('dark-mode');
+
+                
+
+                if (document.body.classList.contains('dark-mode')) {
+
+                    localStorage.setItem('theme', 'dark');
+
+                    themeToggle.innerHTML = '<i class="fas fa-sun"></i>';
+
+                } else {
+
+                    localStorage.setItem('theme', 'light');
+
+                    themeToggle.innerHTML = '<i class="fas fa-moon"></i>';
+
+                }
+
+            });
+
+        }
+
+        
+
+        // Mobile Navigation
+
+        function initMobileNav() {
+
+            hamburger.addEventListener('click', () => {
+
+                navMenu.classList.toggle('active');
+
+                hamburger.innerHTML = navMenu.classList.contains('active') ? 
+
+                    '<i class="fas fa-times"></i>' : '<i class="fas fa-bars"></i>';
+
+            });
+
+            
+
+            // Close mobile nav when clicking on links
+
+            document.querySelectorAll('.nav-link').forEach(link => {
+
+                link.addEventListener('click', () => {
+
+                    navMenu.classList.remove('active');
+
+                    hamburger.innerHTML = '<i class="fas fa-bars"></i>';
+
+                });
+
+            });
+
+        }
+
+        
+
+        // Form Validation
+
+        function initFormValidation() {
+
+            contactForm.addEventListener('submit', function(e) {
+
+                e.preventDefault();
+
+                let isValid = true;
+
+                
+
+                // Name validation
+
+                const name = document.getElementById('name');
+
+                const nameError = document.getElementById('name-error');
+
+                if (!name.value.trim()) {
+
+                    nameError.style.display = 'block';
+
+                    isValid = false;
+
+                } else {
+
+                    nameError.style.display = 'none';
+
+                }
+
+                
+
+                // Email validation
+
+                const email = document.getElementById('email');
+
+                const emailError = document.getElementById('email-error');
+
+                const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+                if (!email.value.trim() || !emailRegex.test(email.value)) {
+
+                    emailError.style.display = 'block';
+
+                    isValid = false;
+
+                } else {
+
+                    emailError.style.display = 'none';
+
+                }
+
+                
+
+                // Business type validation
+
+                const business = document.getElementById('business');
+
+                const businessError = document.getElementById('business-error');
+
+                if (!business.value) {
+
+                    businessError.style.display = 'block';
+
+                    isValid = false;
+
+                } else {
+
+                    businessError.style.display = 'none';
+
+                }
+
+                
+
+                // Message validation
+
+                const message = document.getElementById('message');
+
+                const messageError = document.getElementById('message-error');
+
+                if (!message.value.trim()) {
+
+                    messageError.style.display = 'block';
+
+                    isValid = false;
+
+                } else {
+
+                    messageError.style.display = 'none';
+
+                }
+
+                
+
+                if (isValid) {
+
+                    // In a real application, you would submit the form here
+
+                    alert('Thank you for your message! I will get back to you soon.');
+
+                    contactForm.reset();
+
+                }
+
+            });
+
+        }
+
+        
+
+        // Project Modal
+
+        function initProjectModal() {
+
+            document.querySelectorAll('.view-project').forEach(button => {
+
+                button.addEventListener('click', () => {
+
+                    const projectId = button.getAttribute('data-project');
+
+                    const project = projects[projectId];
+
+                    
+
+                    if (project) {
+
+                        modalImg.src = project.image;
+
+                        modalImg.alt = project.title;
+
+                        modalTitle.textContent = project.title;
+
+                        modalDescription.textContent = project.description;
+
+                        
+
+                        modal.classList.add('open');
+
+                        document.body.style.overflow = 'hidden';
+
+                    }
+
+                });
+
+            });
+
+            
+
+            modalClose.addEventListener('click', () => {
+
+                modal.classList.remove('open');
+
+                document.body.style.overflow = 'auto';
+
+            });
+
+            
+
+            // Close modal when clicking outside
+
+            modal.addEventListener('click', (e) => {
+
+                if (e.target === modal) {
+
+                    modal.classList.remove('open');
+
+                    document.body.style.overflow = 'auto';
+
+                }
+
+            });
+
+        }
+
+        
+
+        // Scroll Animations
+
+        function initScrollAnimations() {
+
+            const observerOptions = {
+
+                root: null,
+
+                rootMargin: '0px',
+
+                threshold: 0.1
+
+            };
+
+            
+
+            const observer = new IntersectionObserver((entries) => {
+
+                entries.forEach(entry => {
+
+                    if (entry.isIntersecting) {
+
+                        entry.target.style.opacity = '1';
+
+                        entry.target.style.transform = 'translateY(0)';
+
+                        
+
+                        // Animate skill bars
+
+                        if (entry.target.classList.contains('about-text')) {
+
+                            document.querySelectorAll('.skill-progress').forEach(progress => {
+
+                                const width = progress.getAttribute('data-width');
+
+                                progress.style.width = width;
+
+                            });
+
+                        }
+
+                        
+
+                        // Animate example features
+
+                        if (entry.target.classList.contains('example-website')) {
+
+                            document.querySelectorAll('.example-feature').forEach((feature, index) => {
+
+                                setTimeout(() => {
+
+                                    feature.style.opacity = '1';
+
+                                }, index * 200);
+
+                            });
+
+                        }
+
+                    }
+
+                });
+
+            }, observerOptions);
+
+            
+
+            // Observe elements for animation
+
+            document.querySelectorAll('.service-card, .portfolio-item, .example-website, .contact-info, .contact-form, .about-text, .about-image, .testimonial-card, .process-step, .service-item, .case-study, .seo-performance').forEach(el => {
+
+                observer.observe(el);
+
+            });
+
+            
+
+            // Header scroll effect
+
+            window.addEventListener('scroll', () => {
+
+                const header = document.getElementById('header');
+
+                if (window.scrollY > 50) {
+
+                    header.classList.add('scrolled');
+
+                } else {
+
+                    header.classList.remove('scrolled');
+
+                }
+
+                
+
+                // Show/hide scroll to top button
+
+                if (window.scrollY > 500) {
+
+                    scrollTopButton.classList.add('visible');
+
+                } else {
+
+                    scrollTopButton.classList.remove('visible');
+
+                }
+
+            });
+
+            
+
+            // Scroll to top functionality
+
+            scrollTopButton.addEventListener('click', () => {
+
+                window.scrollTo({
+
+                    top: 0,
+
+                    behavior: 'smooth'
+
+                });
+
+            });
+
+        }
+
+        
+
+        // Smooth Scroll for Anchor Links
+
+        function initSmoothScroll() {
+
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+
+                anchor.addEventListener('click', function(e) {
+
+                    e.preventDefault();
+
+                    
+
+                    const targetId = this.getAttribute('href');
+
+                    if (targetId === '#') return;
+
+                    
+
+                    const targetElement = document.querySelector(targetId);
+
+                    if (targetElement) {
+
+                        const headerHeight = document.getElementById('header').offsetHeight;
+
+                        const targetPosition = targetElement.getBoundingClientRect().top + window.pageYOffset - headerHeight;
+
+                        
+
+                        window.scrollTo({
+
+                            top: targetPosition,
+
+                            behavior: 'smooth'
+
+                        });
+
+                    }
+
+                });
+
+            });
+
+        }
+
+        
+
+        // Initialize everything when DOM is loaded
+
+        document.addEventListener('DOMContentLoaded', () => {
+
+            initParticles();
+
+            initTypingEffect();
+
+            initThemeToggle();
+
+            initMobileNav();
+
+            initFormValidation();
+
+            initProjectModal();
+
+            initScrollAnimations();
+
+            initSmoothScroll();
+
+        });
+
+    </script>
+
+</body>
+
+</html>
